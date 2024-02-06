@@ -1,0 +1,160 @@
+<!--Lizabeth Toole, 6/6/2023, services.html, services page-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> Services </title>
+<!--Title of page that appears in tab-->
+
+<style>
+
+body {
+background-color: aliceblue;
+font-family: 'Muli', sans-serif;
+}
+/*changes the background color and adds the font to the entire body*/
+
+.item1 { grid-area: 1 / 1 / 2 / 2; }
+.item2 { grid-area: 1 / 2 / 2 / 3; }
+.item3 { grid-area: 1 / 3 / 2 / 4; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+/*This formats the size of the columns and containers*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  color: midnightblue;
+  text-align: center;
+}
+/*This formats the footer.*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*This formats the navigation bar*/
+
+h1 {
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin: auto;
+text-align: center;
+color: midnightblue;
+padding: 60px 50px;
+font-size:100px;
+}
+
+/*This formats the heading*/
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+   
+    <ul>
+	<!--this will be the navigtaion bar-->
+
+
+	<li><a href="https://creaturecomfortsclarkecounty.000webhostapp.com" > Home </a></li>
+	<li><a href="https://creaturecomfortsclarkecounty.000webhostapp.com/pages/Gallery.html" > Gallery </a></li>
+
+	<li><a href="https://creaturecomfortsclarkecounty.000webhostapp.com/pages/services.html" >	Services </a></li>
+	
+
+<!--These are the anchor tags ("a") and the reference of where the files are found 		with what it will appear as-->
+</ul>
+
+	
+</nav>
+
+   
+<!--This section puts h1 in the top and creates the content column-->
+<div class="h1">
+
+<h1> Services </h1>
+
+</div>
+
+<div class="grid-container">
+
+  <div class="item1">
+
+<h2> With every pet, comes responsibility. </h2>
+
+<p> We do ask that you are 18 or older, have a stable home with a proof of residence, and can financially care for the dog. Every dog has different needs, but love is number. We do ask that you have a vet and stay up to date on shots. </p>
+</div>
+
+ <div class="item2">
+        
+<h2> For Cats </h2>
+
+<p>We offer spay and nueter services for cats. Fow low-income families, it will be offered for a reduced price. </p>
+
+</div>
+
+<!--This creates a second section.-->
+
+<div class="item3">
+    
+<h2> For Dogs </h2>
+
+    <p>We offer spay and nueter services for dogs. Fow low-income families, it will be offered for a reduced price. We also offer rabies shots for $10.</p>
+    
+<!--This creates the third section.-->
+
+ </div>
+  </div>
+
+
+<div class="footer">
+<footer>  
+<!-- This wil be the footer -->
+      <a href="https://creaturecomfortsclarkecounty.000webhostapp.com/pages/AboutUs.html">About Us</a> |
+
+	<a href="https://creaturecomfortsclarkecounty.000webhostapp.com/pages/ContactUs.html">Contact Us</a> | 
+	<!--These are the anchor tags ("a") and the reference of where the files are found 		with what it will appear as-->
+</footer>
+</div>
+</body>
+</html>

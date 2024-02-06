@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+background-color: aliceblue;
+font-family: 'Muli', sans-serif;
+}
+
+
+h1 {
+  max-width: auto;
+  height: 80px;
+  background-color: white;
+  margin: auto;
+text-align: center;
+color: midnightblue;
+padding: 60px 50px;
+font-size:40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.container {
+	  display: grid;
+	  grid-template-columns: 100px 150px 200px;
+	  text-align: center;
+	  clear: both;
+	  
+	  
+	}
+	.column {
+	  padding: 20px;
+	  height: 200px;
+	  margin: 10px;
+	  background-color: white;
+}
+
+\
+
+
+#topsection{
+background: white;
+height: 90px; /*Height of top section*/
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 15% 0 20%; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+background: aliceblue;
+color: midnightblue;
+text-align: center;
+}
+
+#leftcolumn{
+float: left;
+width: 20%; /*Width of left column in percentage*/
+margin-left: -100%;
+background: aliceblue;
+color: midnightblue;
+}
+
+#rightcolumn{
+float: left;
+width: 15%; /*Width of right column in pixels*/
+margin-left: -15%; /*Set margin to that of -(RightColumnWidth)*/
+background: aliceblue;
+color: midnightblue;;
+}
+.innertube{
+margin: 20px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: midnightblue;
+  text-align: center;
+}
